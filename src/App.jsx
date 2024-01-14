@@ -1,33 +1,28 @@
 import "./app.scss";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import Parallax from "./components/parallax/Parallax";
 
 const App = () => {
   return <div>
 
     <section id="Homepage">
-      
       <Navbar/>
       <Hero/>
-    
     </section>
 
     <section id="About Me">
-      Parallax
+      <Parallax type="about"/>
     </section>
     <section>
       About Me
-    </section>
-
-    <section id="Experiences">
-      Parllax
     </section>
     <section>
       Experiences
     </section>
 
     <section id="Portfolio">
-      Parallax
+      <Parallax type="portfolio"/>
     </section>
     <section>
       Portfolio 1
@@ -41,10 +36,6 @@ const App = () => {
 
     <section id="Contact">
       Contact
-    </section>
-
-    <section>
-      Footer
     </section>
   </div>;
 };

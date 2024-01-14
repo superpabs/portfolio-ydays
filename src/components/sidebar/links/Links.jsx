@@ -29,7 +29,6 @@ const itemVariants = {
 const items = [
   "Homepage",
   "About Me",
-  "Experiences",
   "Portfolio",
   "Contact"
 ]
