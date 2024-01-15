@@ -28,15 +28,26 @@
             font-size: 88px;
         }
 
-        .button {
+        .buttons {
             button {
                 padding: 20px;
-                border: 1px solid #d98b17;
                 border-radius: 10px;
-                background-color: #d98b17;
-                color: #0c0c1d;
+                margin-right: 20px;
                 cursor: pointer;
-                font-weight: 300;
+                font-weight: 600;
+            }
+
+            .cv {
+                color: white;
+                border: 1px solid white;
+                background-color: #111132;
+            }
+
+            .contact {
+                color: #0c0c1d;
+                border: 1px solid #d98b17;
+                background-color: #d98b17;
+
             }
         }
 

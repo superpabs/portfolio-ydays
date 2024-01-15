@@ -58,17 +58,30 @@ const Hero = () => {
                     Webmaster & Graphic Designer
                 </motion.h1>
 
-                <motion.div className="button" variants={textVariants}>
-                    <motion.button variants={textVariants}>
+                <motion.div className="buttons" variants={textVariants}>
+                    <motion.button className="cv" variants={textVariants}>
+                        Download CV
+                    </motion.button>
+                    <motion.button className="contact" variants={textVariants}>
                         Contact Me
                     </motion.button>
                 </motion.div>
 
-                <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton"/>
+                <motion.img 
+                    src="/scroll.png" 
+                    alt="" 
+                    variants={textVariants} 
+                    animate="scrollButton"
+                />
             </motion.div>
         </div>
 
-        <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+        <motion.div 
+            className="slidingTextContainer" 
+            variants={sliderVariants} 
+            initial="initial" 
+            animate="animate"
+        >
             Webmaster and Graphic Designer
         </motion.div>
 
