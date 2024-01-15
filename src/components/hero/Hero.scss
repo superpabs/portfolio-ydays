@@ -28,26 +28,18 @@
             font-size: 88px;
         }
 
-        .buttons {
+        .button {
+            z-index: 999;
+
             button {
                 padding: 20px;
+                border: 1px solid #0c0c1d;
                 border-radius: 10px;
+                background-color: orange;
+                color: #0c0c1d;
                 margin-right: 20px;
                 cursor: pointer;
                 font-weight: 600;
-            }
-
-            .cv {
-                color: white;
-                border: 1px solid white;
-                background-color: #111132;
-            }
-
-            .contact {
-                color: #0c0c1d;
-                border: 1px solid #d98b17;
-                background-color: #d98b17;
-
             }
         }
 
@@ -71,6 +63,5 @@
         position: absolute;
         top: 170px;
         right: 170px;
-
     }
 }

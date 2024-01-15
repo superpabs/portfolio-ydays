@@ -58,13 +58,12 @@ const Hero = () => {
                     Webmaster & Graphic Designer
                 </motion.h1>
 
-                <motion.div className="buttons" variants={textVariants}>
-                    <motion.button className="cv" variants={textVariants}>
-                        Download CV
-                    </motion.button>
-                    <motion.button className="contact" variants={textVariants}>
-                        Contact Me
-                    </motion.button>
+                <motion.div variants={textVariants} className="button">
+                    <a href="mailto: preciousanne.s@gmail.com">
+                        <motion.button variants={textVariants}>
+                            Contact Me
+                        </motion.button>
+                    </a>
                 </motion.div>
 
                 <motion.img 
