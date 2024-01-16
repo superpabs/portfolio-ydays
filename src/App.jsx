@@ -1,4 +1,6 @@
 import "./app.scss";
+import About from "./components/about/About";
+
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
@@ -7,7 +9,8 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 
 const App = () => {
-  return <div>
+  return (
+    <div>
 
     <Cursor/>
 
@@ -20,10 +23,7 @@ const App = () => {
       <Parallax type="about"/>
     </section>
     <section>
-      About
-    </section>
-    <section>
-      Experiences
+      <About/>
     </section>
 
     <section id="Portfolio">
@@ -36,7 +36,8 @@ const App = () => {
       <Contact/>
     </section>
 
-  </div>;
+  </div>
+  );
 };
 
 export default App;

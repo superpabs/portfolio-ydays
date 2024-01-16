@@ -43,7 +43,7 @@
         }
 
         .button {
-            z-index: 999;
+            z-index: 998;
 
             @include mobile {
                 z-index: 998;
